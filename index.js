@@ -10,6 +10,7 @@ bot.registry.registerCommandsIn(__dirname + "/commands");
 
 bot.on('ready', () => {
     bot.user.setActivity('Hero Academia RPG PLUS ULTRA!')
-  })
+  });
   
+// THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
